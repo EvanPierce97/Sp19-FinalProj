@@ -212,7 +212,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114931905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.5, y: 5, z: 0}
+  m_LocalPosition: {x: 55.5, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 729621335}
@@ -377,13 +377,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0ba04a03cb5c2a479910e897f458ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapData: {fileID: 4900000, guid: 6a3d9d0cea6f74fb880c88762602999a, type: 3}
+  mapData: {fileID: 4900000, guid: 2a971b5a6fe0f43bc969e756bf4ef7b0, type: 3}
   mapTiles: {fileID: 2800000, guid: 600c3190624b54fdba95619d75d56fdb, type: 3}
   mapCollisions: {fileID: 4900000, guid: 8c7dddc175b4444fa9bf2466a05b5324, type: 3}
   tilePrefab: {fileID: 114989145024349396, guid: 9bf6fff4496d110439f11d4acd9a132a,
     type: 3}
-  defaultTileNum: 0
-  tileSwaps: []
+  defaultTileNum: 29
+  tileSwaps:
+  - tileNum: 192
+    swapPrefab: {fileID: 1139987154471818, guid: ddee87083654a0b48ae2c424b4b9349b,
+      type: 3}
+    guaranteedItemDrop: {fileID: 0}
+    overrideTileNum: -1
+  - tileNum: 224
+    swapPrefab: {fileID: 1135633211522540, guid: b9d737fc795ae9644a200e0d1cf29d32,
+      type: 3}
+    guaranteedItemDrop: {fileID: 0}
+    overrideTileNum: -1
+  - tileNum: 232
+    swapPrefab: {fileID: 1135633211522540, guid: b9d737fc795ae9644a200e0d1cf29d32,
+      type: 3}
+    guaranteedItemDrop: {fileID: 1139987154471818, guid: ddee87083654a0b48ae2c424b4b9349b,
+      type: 3}
+    overrideTileNum: -1
+  - tileNum: 193
+    swapPrefab: {fileID: 1000011084335560, guid: c0a773a79706a44f19d02f6f29101480,
+      type: 3}
+    guaranteedItemDrop: {fileID: 0}
+    overrideTileNum: -1
+  - tileNum: 227
+    swapPrefab: {fileID: 1000010950105738, guid: 002d3cd572dd2425c9aeacc3340afccb,
+      type: 3}
+    guaranteedItemDrop: {fileID: 0}
+    overrideTileNum: -1
+  - tileNum: 228
+    swapPrefab: {fileID: 1000010950105738, guid: 002d3cd572dd2425c9aeacc3340afccb,
+      type: 3}
+    guaranteedItemDrop: {fileID: 0}
+    overrideTileNum: 96
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -434,7 +465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.5, y: 5, z: -10}
+  m_LocalPosition: {x: 55.5, y: 5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -559,47 +590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcbd328dfd5db694883eac95c1a8b48c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &857032313
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4000010953457414, guid: c0a773a79706a44f19d02f6f29101480, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010953457414, guid: c0a773a79706a44f19d02f6f29101480, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010953457414, guid: c0a773a79706a44f19d02f6f29101480, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010953457414, guid: c0a773a79706a44f19d02f6f29101480, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010953457414, guid: c0a773a79706a44f19d02f6f29101480, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010953457414, guid: c0a773a79706a44f19d02f6f29101480, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010953457414, guid: c0a773a79706a44f19d02f6f29101480, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010953457414, guid: c0a773a79706a44f19d02f6f29101480, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c0a773a79706a44f19d02f6f29101480, type: 3}
 --- !u!1001 &953172620
 PrefabInstance:
   m_ObjectHideFlags: 0
