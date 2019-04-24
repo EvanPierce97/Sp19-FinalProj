@@ -227,6 +227,7 @@ public class Dray : MonoBehaviour, IFacingMover, IKeyMaster {
             knockbackVel = delta * knockbackSpeed;
             rigid.velocity = knockbackVel;
 
+
             //set mode to knockback and set time to stop knockback
             mode = eMode.knockback;
             knockbackDone = Time.time + knockbackDuration;
